@@ -13,14 +13,13 @@ local xrayCSM = {
 
 local waypointsstring = ""
 local ores_table = {
-    {"default:stone_with_diamond", "Diamond", 0x0933de},
-    {"charoit:stone_with_charoit", "Charoit", 0xde09da},
-    {"default:stone_with_emerald", "Emerald", 0x33de09},
-    {"default:quartz_ore", "Quartz", 0x804000},
-    {"default:stone_with_gold","Gold",0xfff000},
-    {"default:stone_with_iron","Iron",0xffffff},
-    {"default:chest","Chest",0x7c0a02},
-    {"default:chest_left","Chest(l)",0x7c0a02},
+    {"mcl_core:stone_with_diamond", "Diamond", 0x0933de},
+    {"mcl_core::stone_with_emerald", "Emerald", 0x33de09},
+    {"mcl_core:stone_with_gold","Gold",0xfff000},
+    {"mcl_core:stone_with_iron","Iron",0xffffff},
+    {"mcl_core:chest_small","Chest",0x7c0a02},
+    {"mcl_core:chest_left","Chest(l)",0x7c0a02},
+    {"mcl_core:chest_right","Chest(r)",0x7c0a02},
 }
 local radius = 50
 
@@ -280,5 +279,3 @@ minetest.register_on_formspec_input(function(formname, fields)
         
     end
 end)
-
-minetest.register_on_mods_loaded(function() minetest.send_chat_message("Player used xrayCSM") end)
