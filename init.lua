@@ -14,7 +14,7 @@ local xrayCSM = {
 local waypointsstring = ""
 local ores_table = {
     {"mcl_core:stone_with_diamond", "Diamond", 0x0933de},
-    {"mcl_core::stone_with_emerald", "Emerald", 0x33de09},
+    {"mcl_core:stone_with_emerald", "Emerald", 0x33de09},
     {"mcl_core:stone_with_gold","Gold",0xfff000},
     {"mcl_core:stone_with_iron","Iron",0xffffff},
     {"mcl_core:chest_small","Chest",0x7c0a02},
