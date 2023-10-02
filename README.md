@@ -1,3 +1,5 @@
+This is a fork of [Mr Techtroid's xrayCSM mod](https://github.com/mrtechtroid/xrayCSM) which updates the default ore IDs to those used in mineclone 2.
+
 
 # xrayCSM
 
