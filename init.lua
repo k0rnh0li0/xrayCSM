@@ -14,9 +14,13 @@ local xrayCSM = {
 local waypointsstring = ""
 local ores_table = {
     {"mcl_core:stone_with_diamond", "Diamond", 0x0933de},
+    {"mcl_deepslate:deepslate_with_diamond", "Diamond(d)", 0x0933de},
     {"mcl_core:stone_with_emerald", "Emerald", 0x33de09},
+    {"mcl_deepslate:deepslate_with_emerald", "Emerald(d)", 0x33de09},
     {"mcl_core:stone_with_gold","Gold",0xfff000},
+    {"mcl_deepslate:deepslate_with_gold","Gold(d)",0xfff000},
     {"mcl_core:stone_with_iron","Iron",0xffffff},
+    {"mcl_deepslate:deepslate_with_iron","Iron(d)",0xffffff},
     {"mcl_core:chest_small","Chest",0x7c0a02},
     {"mcl_core:chest_left","Chest(l)",0x7c0a02},
     {"mcl_core:chest_right","Chest(r)",0x7c0a02},
